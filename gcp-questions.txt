@@ -1,0 +1,45 @@
+Is there centralized identity management implemented? If yes, is the principle of least privilege implemented?  
+Are there appropriate authorization levels and access policies?
+Is security implemented at each level of your applications and infrastructure? Is the defence-in-depth approach implemented at each level of your applications and infrastructure? 
+Has automation been utilized to remove humans out of the workflow and automate important admin tasks? 
+Is automated scanning completed in your continuous integration and continuous deployment (CI/CD) pipelines, to scan your infrastructure for vulnerabilities, and to detect security incidents?
+How do you manage your identity? 
+Can you federate identities with Google Cloud?
+What access permissions are required by your user types? What programmatic access is required?
+Do you have a process to grant and audit access control roles and permission to users depending on various deployment environments (test, dev, prod, and so on)?
+How do you manage security of your computing nodes?
+Do you need host-based protection?
+Do you maintain curated hardened images?
+How do you control who can create or delete compute nodes in your production environment?
+How frequently do you audit compute creation and deletion?
+Do you perform security testing on your deployments in a sandboxed environment? How frequently do you perform and monitor these and update compatibility with the current version of deployment nodes?
+How do you manage network security today?
+Do you have perimeter-based firewall filtering?
+Can you move toward application-level firewall filtering?
+How do you manage networking access controls?
+Do you depend heavily on static IP addresses?
+Can you move towards services-based access control?
+How do you monitor network security?
+Do you have IDS/IPS to monitor network traffic?
+How do you manage networking for admin access to your production environment?
+Do you have frequent audits to monitor admin network access activity?
+Do you have a process to use encryption keys setup?
+How do you manage the lifecycle of keys?
+How do you govern access control to encryption keys?
+How frequently do you audit access to keys?
+How do you plan to use storage? What's important to you: latency, IOPs, availability?
+How do you plan to store and control access to sensitive data?
+How frequently do you audit data and how to control access to it?
+Do you have a system in place to monitor data exfiltration? How do you process those alerts?
+Do you have a process to grant access to databases and how frequently you audit them?
+Do you scan databases for any sensitive data?
+How frequently do you take snapshots of or back up your databases?
+How do you manage and secure encryption keys for those?
+Do you have a well-defined process (for example, canary testing, vulnerability scanning, or approval chain) to secure how you deploy and monitor new changes to your production environment?
+Do you perform vulnerability scanning on your application code to mitigate the latest vulnerabilities? If yes, do you have a sandboxed environment to test and monitor such scans?
+How do you manage secrets for your deployments?
+How do you audit and rotate your secrets?
+How long do you need to retain audit logs?
+Which audit logs do you need to retain?
+Do you need to export audit logs?
+How will you use any exported audit logs?
